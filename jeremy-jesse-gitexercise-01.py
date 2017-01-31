@@ -3,7 +3,9 @@
 # TEAM LEADER:
 # implement this function so that it returns copy of string_arg reversed
 def reverseWord(string_arg):
-	pass
+	string_arg = list(string_arg)
+	string_arg.reverse()
+	return ''.join(string_arg)
 
 # TEAM MEMBER:
 # implement this function so that it returns the frequency of query in string_arg
